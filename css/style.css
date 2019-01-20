@@ -1,0 +1,124 @@
+@media only screen and (max-width: 550px) {
+  .title {
+    font-size: 5vw;
+    
+  }
+  
+  #header{
+    height: 100vh;
+    
+  }
+  
+}
+
+
+/* will serve as my cover */
+#first{
+  height: 100vh;
+  
+}
+
+#second{
+  height: 100vh;
+  background-color: cornflowerblue;
+}
+#third{
+  height: 100vh;
+  background-color: darkgoldenrod;
+}
+#fourth{
+  height: 100vh;
+  background-color: darksalmon;
+}
+.First-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title{
+  transform: skew(-10deg);
+  display: block;
+  text-align: center;
+  position: relative;
+  white-space:pre;
+  }
+ 
+
+
+
+
+/* navbar */
+
+.scroll-fixed {
+  position: fixed;
+  top: 30px;
+  left: auto;
+  right: 30px;
+  margin: auto;
+  z-index: 999;
+  height: 40px;
+}
+
+.scroll-fixed li {
+  list-style-type: none;
+}
+
+.scroll-fixed li a::after {
+  background-color: #3d4e58;
+  background-repeat: repeat-y;
+  bottom: -1px;
+  color: #ffffff;
+  content: "";
+  display: block;
+  height: 26px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: -40px;
+  width: 1px;
+}
+
+.scroll-fixed li a {
+  background-color: transparent;
+  border: 1px solid #3D4E58;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 8px;
+  line-height: 0;
+  outline: medium none;
+  padding: 5px;
+  position: relative;
+  text-indent: -9999px;
+  width: 8px;
+  margin-bottom: 25px;
+}
+
+
+.scroll-fixed li:first-child a::after {
+  display: none;
+}
+
+.scroll-fixed li a.active,
+.scroll-fixed li a:hover {
+  background-color: #ffffff!important;
+}
+
+.scroll-fixed li.blue {
+  background-color: blue;
+}
+
+
+p {
+  margin: 1em 0 0;
+}
+.gray{
+background-color:d3d3d3;
+}
+.blueActive{
+background-color:#0667f9!important;
+}
